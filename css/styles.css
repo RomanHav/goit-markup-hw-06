@@ -899,8 +899,10 @@ body {
   .parts-title {
     text-align: left;
   }
-  .our-team .container {
-    width: 584px;
+  @media screen and (max-width: 1157px) {
+    .our-team .container {
+      width: 584px;
+    }
   }
   .menu-team {
     flex-direction: row;
